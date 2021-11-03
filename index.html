@@ -1,1 +1,76 @@
 
+!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AppDeGatos</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h2>AppDeGatos</h2>
+    <main>
+<h2>Imagenes de Gatos:</h3>
+
+<p>haz click para ver imagenes de gatos
+<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">imagenes de gatos </a>
+</p>
+
+<a href="https://www.google.com/" target="_blank"><img src="img/images.jfif" alt="gato miau"></a>
+
+<hr>
+
+<h3>Lista de Gatos</h3>
+
+<div>  <!--Div se usa para crear estructuras en la pagina web para usarlo como un contenedor -->
+
+      <p>Cosas que los gatos <strong>aman</strong>:</p>
+      <!-- Lista no ordenada-->
+      <ul>
+        <li>Menta gatuna</li>
+        <li>Apuntadores Lasers</li>
+        <li>Lasaña</li>
+      </ul>
+
+      <img src="img/gato-marron_0.jpg" alt="gatitos" height="300px" width="300px">
+      <!-- lista ordenada-->
+      <p>Cosas que los gatos <strong>odian</strong>:</p>
+      <ol>
+        <li>Bañarse</li>
+        <li>Truenos</li>
+        <li>Otros gatos</li>
+      </ol>
+  </div>
+
+<hr> <!-- hr sirve para una linea de separacion-->
+
+<!-- Botones de radio-->
+<form action="/enviar-respuesta">
+<br><label for="tipo1">
+  <input type="radio" placeholder="selecciona" id="tipo1" name="tipos" checked value="tipo1"> tipo 1 </label>
+<br><label>
+  <input type="radio" placeholder="selecciona" name="tipos" value="tipo2"> tipo 2 </label>
+<br><label>
+  <input type="radio" placeholder="selecciona" name="tipos" value="tipo3"> tipo 3</label>
+
+<br>
+<br>
+<!-- ingresar texto -->
+  <input type="text" placeholder="ingresa tu nombre" required name="" value="">
+  <button type="submit" name="button">Enviar</button>
+
+<!-- Botones de checkbox-->
+<br><label for="basquet">
+  <input type="checkbox" name="deportes" id="basquet" checked value="basquet">basquet</label>
+<br><label for="futbol">
+  <input type="checkbox" name="deportes" id="futbol" value="futbol">futbol</label>
+<br><label for="indor">
+  <input type="checkbox" name="deportes" id="indor" value="indor">indor</label>
+
+</form>
+</main>
+
+<footer><p><small>Todos los derechos reservados &copy; 2021 - Gabriel Arce</small></p></footer>
+  </body>
+
+</html>
